@@ -36,13 +36,13 @@
 	-->
 	<h3>Disney</h3>
 	<img src="Images/Disney_Chibis.png" alt="disneyPrincesses" usemap="#disneyPrincesses">
-	<map name="disneyPrincesses" src="Disney_Chibis.png" id="chibis">
-		<area onmouseover="Cinderella()" shape="rect" coords="22,24,125,266" alt="Cinderella">
-		<area onmouseover="Aurora()" shape="rect" coords="140,19,260,270" alt="Aurora">
-		<area onmouseover="Belle()" shape="rect" coords="286,21,430,280" alt="Belle">
-		<area onmouseover="Jasmine()" shape="rect" coords="434,18,548,270" alt="Jasmine">
-		<area onmouseover="Ariel()" shape="rect" coords="551,20,670,265" alt="Ariel">
-		<area onmouseover="SnowWhite()" shape="rect" coords="680,6,796,261" alt="Snow White">
+	<map name="disneyPrincesses" onmouseout="unSelectedPrincess()" src="Disney_Chibis.png" id="chibis">
+		<area onmouseover="selectedPrincess(this)" shape="rect" coords="22,24,125,266" alt="Cinderella" id="cinderellaID">
+		<area onmouseover="selectedPrincess(this)" shape="rect" coords="140,19,260,270" alt="Aurora" id="auroraID">
+		<area onmouseover="selectedPrincess(this)" shape="rect" coords="286,21,430,280" alt="Belle" id="belleID">
+		<area onmouseover="selectedPrincess(this)" shape="rect" coords="434,18,548,270" alt="Jasmine" id="jasmineID">
+		<area onmouseover="selectedPrincess(this)" shape="rect" coords="551,20,670,265" alt="Ariel" id="arielID">
+		<area onmouseover="selectedPrincess(this)" shape="rect" coords="680,6,796,261" alt="Snow White" id="snowWhiteID">
 	</map> 
 	<p>Dear Parents,</p>
 	<p id="quote"></p>
