@@ -1,10 +1,9 @@
-var counter = 0;
-function myFunction(x) {
+function myFunction() {
 	var princessmemes = "https://sayingimages.com/wp-content/uploads/beast-disney-princess-memes.jpg";
-	var changed = "I changed";
 	var childruining = "https://static.fjcdn.com/pictures/Childhood+ruined_db52c6_4049312.jpg";
 	var nbuzz = "https://img.buzzfeed.com/buzzfeed-static/static/enhanced/terminal01/2011/2/22/15/enhanced-buzz-30302-1298404880-11.jpg";
 	var newsfeed =  "https://i.kym-cdn.com/photos/images/newsfeed/000/229/161/fd5.jpg";
+    var x = document.getElementById("changeImage");
     
 	if (x.src == newsfeed)
 	{
