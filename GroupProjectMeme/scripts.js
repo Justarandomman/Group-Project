@@ -1,3 +1,4 @@
+//Worked on by Brenton and Tyler
 function myFunction() {
 	var princessmemes = "https://sayingimages.com/wp-content/uploads/beast-disney-princess-memes.jpg";
 	var childruining = "https://static.fjcdn.com/pictures/Childhood+ruined_db52c6_4049312.jpg";
@@ -26,6 +27,7 @@ function myFunction() {
 // Function that changes the quote comment in the text under the princesses.  Uses mouseover and mouseout, and puts ID's into variables to compare and 
 // outputs corresponding saying based on IF loop.
 
+//Worked on by Mehala Keller and Cam
 function selectedPrincess(x) {
 	var cinderella = document.getElementById("cinderellaID");
 	var aurora = document.getElementById("auroraID");
