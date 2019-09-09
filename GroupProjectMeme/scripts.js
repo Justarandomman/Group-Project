@@ -1,31 +1,26 @@
-
-function myFunction() {
+var counter = 0;
+function myFunction(x) {
 	var princessmemes = "https://sayingimages.com/wp-content/uploads/beast-disney-princess-memes.jpg";
 	var changed = "I changed";
 	var childruining = "https://static.fjcdn.com/pictures/Childhood+ruined_db52c6_4049312.jpg";
 	var nbuzz = "https://img.buzzfeed.com/buzzfeed-static/static/enhanced/terminal01/2011/2/22/15/enhanced-buzz-30302-1298404880-11.jpg";
 	var newsfeed =  "https://i.kym-cdn.com/photos/images/newsfeed/000/229/161/fd5.jpg";
-	
-	
-	if (document.getElementById("changeImage").src == newsfeed)
+    
+	if (x.src == newsfeed)
 	{
-	 document.getElementById("changeImage").src = childruining;
-	 document.getElementById("title").innerHTML = changed;
+	 x.src = childruining;
 	}
-	else if(document.getElementById("changeImage").src == childruining)
+	else if(x.src == childruining)
 	{
-	 document.getElementById("changeImage").src = princessmemes;
-	 document.getElementById("title").innerHTML = changed;
+	 x.src = princessmemes;
 	}
-	else if (document.getElementById("changeImage").src == princessmemes)
+	else if (x.src == princessmemes)
 	{
-	 document.getElementById("changeImage").src = nbuzz;
-	 document.getElementById("title").innerHTML = changed;
+	 x.src = nbuzz;
 	}
-	else if (document.getElementById("changeImage").src == nbuzz)
+	else if (x.src == nbuzz)
 	{
-	 document.getElementById("changeImage").src = newsfeed;
-	 document.getElementById("title").innerHTML = changed;
+	 x.src = newsfeed;
 	}
 }
 
