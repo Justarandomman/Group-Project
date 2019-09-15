@@ -131,6 +131,14 @@ footer {
     line-height: 2em;
 }
 
+#arrayButton {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 .boxes {
     display: block;
     margin-left: auto;
@@ -142,7 +150,6 @@ footer {
     height: 200px;
     width: 400px;
     border: solid black 1px;
-    margin-top: 50px;
     margin-bottom: 50px;
 }
 
