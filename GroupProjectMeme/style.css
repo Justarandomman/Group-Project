@@ -147,22 +147,22 @@ footer {
 }
 
 .box1 {
-    height: 200px;
+    height: auto;
     width: 400px;
     border: solid black 1px;
-    margin-bottom: 50px;
+    margin-bottom: auto;
 }
 
 .box2 {
-    height: 200px;
+    height: auto;
     width: 400px;
     border: solid black 1px;
-    margin-bottom: 50px;
+    margin-bottom: auto;
 }
 
 .box3 {
-    height: 200px;
+    height: auto;
     width: 400px;
     border: solid black 1px;
-    margin-bottom: 50px;
+    margin-bottom: auto;
 }
