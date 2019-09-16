@@ -73,14 +73,14 @@ function unSelectedPrincess()
 {
 	document.getElementById("quote").innerHTML = null;
 }
-
+//Brenton and Cam's array
 var setOne = ["Dank: anything “dank” is accepted as good, funny, important, and smart. Qualities which, in the meme scene, strongly correlate to obscurity , not uncommonly, sheer incomprehensibility.", 'Fire: Probably the closest analogue to the overplayed “viral” right now, though it also refers to a particular conflagration of “dankness.” The fire emoji is a customary equivalent. To be fire is what it once colloquially meant to be on fire. N.B. that any fire preceded by “dumpster” or “trash” is what we once called a “cluster.”', 'Lit: If music and memes can be fire, then parties and communities can be “lit,” which is to say marked by boisterous, enjoyable, and sometimes outlandish activity.', 'No Chill: Though one cannot exactly possess “chill,” the aspect of unruffled, ambivalent calm, one can be said to have “no chill” if one persists in endless trolling, antagonism, or other malicious endeavors. In other words, you can’t leave well enough alone.', 'Meme: A meme is a virally-transmitted photograph that is embellished with text that pokes fun at a cultural symbol or social idea.', "Cool Beans: A slang term that actually began it's use in the late 60's/early 70's. Popularized by the pop culture of the time. Used to describe something very favorable or pleasing. Great. Very nice.", "Ghad: having god-like qualities on either the internet, computer programming or networking", "Internet Bats: When your computer or laptop begins to malfunction whilst on the internet, rather by strange and unusual noises, popups, or just turning off. All the work of the dreaded Internet Bats.", "Wirate: Getting really angry when your WIFI internet connection is slow."];
 /*var setTwo = [];
 var setThree = []; */
 
 
 
-			//tylers work below
+			//Tylers and Mehala's Code
 			var paragraph1 = new Array("Dank: anything “dank” is accepted as good, funny, important, and smart. Qualities which, in the meme scene, strongly correlate to obscurity , not uncommonly, sheer incomprehensibility.", 'Fire: Probably the closest analogue to the overplayed “viral” right now, though it also refers to a particular conflagration of “dankness.” The fire emoji is a customary equivalent. To be fire is what it once colloquially meant to be on fire. N.B. that any fire preceded by “dumpster” or “trash” is what we once called a “cluster.”', 'Lit: If music and memes can be fire, then parties and communities can be “lit,” which is to say marked by boisterous, enjoyable, and sometimes outlandish activity.', 'No Chill: Though one cannot exactly possess “chill,” the aspect of unruffled, ambivalent calm, one can be said to have “no chill” if one persists in endless trolling, antagonism, or other malicious endeavors. In other words, you can’t leave well enough alone.', 'Meme: A meme is a virally-transmitted photograph that is embellished with text that pokes fun at a cultural symbol or social idea.', "Cool Beans: A slang term that actually began it's use in the late 60's/early 70's. Popularized by the pop culture of the time. Used to describe something very favorable or pleasing. Great. Very nice.", "Ghad: having god-like qualities on either the internet, computer programming or networking", "Internet Bats: When your computer or laptop begins to malfunction whilst on the internet, rather by strange and unusual noises, popups, or just turning off. All the work of the dreaded Internet Bats.", "Wirate: Getting really angry when your WIFI internet connection is slow.");
 			var paragraph2 = new Array ("@harryseaton 'Boy: Daddy how did you meet Mummy?' Father: 'Well child I first @'d sadhatcher69 in 2015 with a dank meme and the rest is on my timehop'", "@fillegrossiere 'If the video for a rap song includes a corner store then the track is fire, flat out.'", "@kaleya_daniel 'New menu, uniforms, AND chairs. Applebee's is lit.'", "@britneyvibes 'I'M SCREAMING MARIAH LITERALLY HAS NO CHILL ?????? '", "The majority of modern memes are captioned photos that are intended to be funny, often as a way to publicly ridicule human behavior. Other memes can be videos and verbal expressions. Some memes have heavier and more philosophical content.");
 			var paragraph3 = "The world of memes (which rhymes with 'teams') is noteworthy for two reasons: it is a worldwide social phenomenon, and memes behave like a mass of infectious flu and cold viruses, traveling from person to person quickly through social media.";
@@ -97,7 +97,7 @@ var setThree = []; */
 					document.getElementById("p3").innerHTML = " ";
 				}
 				
-				for(counter1 > 4){
+				if(counter1 > 4){
 					counter1 = 0;
 				}/*end forloop1*/
 				document.getElementById("p1").innerHTML = paragraph1[counter1];
@@ -112,7 +112,7 @@ var setThree = []; */
 					document.getElementById("pC").innerHTML = " ";
 				}
 				
-				for(counter2 > 4){
+				if(counter2 > 4){
 					counter2 = 0;
 				}/*end forloop2*/
 				document.getElementById("pA").innerHTML = paragraph1[counter2];
@@ -127,15 +127,16 @@ var setThree = []; */
 					document.getElementById("para3").innerHTML = " ";
 				}
 				
-				for(counter3 > 4){
+				if(counter3 > 4){
 					counter3 = 0;
 				}/*end forloop3*/
 				document.getElementById("para1").innerHTML = paragraph1[counter3];
 				document.getElementById("para2").innerHTML = paragraph2[counter3];
 			}
 
-/*Brenton's suggestion*/
+/*Brenton's version*/
 /*This code utilizes the below variables, paragraph1, paragraph2, and uses paragraph3 to fill for the definitions without quotes*/
+/*This version also utilizes a requested loop*/
 /*Remove the ends of the comment, and comment out the above function to utilize*/
 
 /*
@@ -143,6 +144,7 @@ var idHolder = ["para1", "para2", "pA", "pB", "p1", "p2"];
 var secondCounter = 0;
 var coldStorage = secondCounter;
 function upDate() {
+    //This section controls the location in the array
     var phaseTracker = 0;
     ++coldStorage;
     
@@ -151,7 +153,7 @@ function upDate() {
     }
     secondCounter = coldStorage;
     coldStorage = secondCounter; 
-    
+    //This section loops across all 3 of the boxes and applies data from the arrays
     for (var i = 0; i < 7; i++){
         document.getElementById(idHolder[i]).innerHTML = paragraph1[secondCounter];
         document.getElementById('p3').innerHTML = secondCounter + " " + coldStorage;
