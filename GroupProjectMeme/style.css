@@ -134,9 +134,12 @@ footer {
 #arrayButton {
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 400px;
+    height: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
+    background-color: lightblue;
+    font-size: 20px;
 }
 
 .boxes {
@@ -149,20 +152,20 @@ footer {
 .box1 {
     height: auto;
     width: 400px;
-    border: solid black 1px;
-    margin-bottom: auto;
+    border: solid black 2px;
+    margin-bottom: 25px;
 }
 
 .box2 {
     height: auto;
     width: 400px;
-    border: solid black 1px;
-    margin-bottom: auto;
+    border: solid black 2px;
+    margin-bottom: 25px;
 }
 
 .box3 {
     height: auto;
     width: 400px;
-    border: solid black 1px;
-    margin-bottom: auto;
+    border: solid black 2px;
+    margin-bottom: 25px;
 }
