@@ -87,7 +87,7 @@ var setThree = []; */
 			var counter1 = 0;
 			var counter2 = 1;
 			var counter3 = 2;
-			function upDate(){
+			function hold(){
 				/*section 1*/
 				counter1++;
 				if(counter1 == 4){
@@ -133,5 +133,44 @@ var setThree = []; */
 				document.getElementById("para1").innerHTML = paragraph1[counter3];
 				document.getElementById("para2").innerHTML = paragraph2[counter3];
 			}
+
+/*Brenton's suggestion*/
+/*This code utilizes the below variables, paragraph1, paragraph2, and uses paragraph3 to fill for the definitions without quotes*/
+/*Remove the ends of the comment, and comment out the above function to utilize*/
+
+/*
+var idHolder = ["para1", "para2", "pA", "pB", "p1", "p2"];
+var secondCounter = 0;
+var coldStorage = secondCounter;
+function upDate() {
+    var phaseTracker = 0;
+    ++coldStorage;
+    
+    if (coldStorage >= 9){
+        coldStorage = 0;
+    }
+    secondCounter = coldStorage;
+    coldStorage = secondCounter; 
+    
+    for (var i = 0; i < 7; i++){
+        document.getElementById(idHolder[i]).innerHTML = paragraph1[secondCounter];
+        document.getElementById('p3').innerHTML = secondCounter + " " + coldStorage;
+        ++i;
+        if (secondCounter >= 5){
+            document.getElementById(idHolder[i]).innerHTML = paragraph3;
+        }
+        else {
+            document.getElementById(idHolder[i]).innerHTML = paragraph2[secondCounter];
+        }
+        if (secondCounter >= 8){
+            secondCounter = 0;
+        }
+        else {
+            ++secondCounter;
+        }
+    }   
+}
+*/
+
 
 
