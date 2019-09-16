@@ -87,7 +87,7 @@ var setThree = []; */
 			var counter1 = 0;
 			var counter2 = 1;
 			var counter3 = 2;
-			function hold(){
+			function upDate(){
 				/*section 1*/
 				counter1++;
 				if(counter1 == 4){
@@ -137,7 +137,7 @@ var setThree = []; */
 /*Brenton's version*/
 /*This code utilizes the below variables, paragraph1, paragraph2, and uses paragraph3 to fill for the definitions without quotes*/
 /*This version also utilizes a requested loop*/
-/*Remove the ends of the comment, and comment out the above function to utilize*/
+/*Remove the ends of the comment, and change the reference for the above function to utilize*/
 
 /*
 var idHolder = ["para1", "para2", "pA", "pB", "p1", "p2"];
