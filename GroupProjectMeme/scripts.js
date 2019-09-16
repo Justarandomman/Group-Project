@@ -97,7 +97,7 @@ var setThree = []; */
 					document.getElementById("p3").innerHTML = " ";
 				}
 				
-				if(counter1 > 4){
+				while(counter1 > 4){
 					counter1 = 0;
 				}/*end forloop1*/
 				document.getElementById("p1").innerHTML = paragraph1[counter1];
@@ -112,7 +112,7 @@ var setThree = []; */
 					document.getElementById("pC").innerHTML = " ";
 				}
 				
-				if(counter2 > 4){
+				while(counter2 > 4){
 					counter2 = 0;
 				}/*end forloop2*/
 				document.getElementById("pA").innerHTML = paragraph1[counter2];
@@ -127,7 +127,7 @@ var setThree = []; */
 					document.getElementById("para3").innerHTML = " ";
 				}
 				
-				if(counter3 > 4){
+				while(counter3 > 4){
 					counter3 = 0;
 				}/*end forloop3*/
 				document.getElementById("para1").innerHTML = paragraph1[counter3];
