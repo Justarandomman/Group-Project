@@ -135,7 +135,7 @@ var setThree = []; */
 			}
 
 /*Brenton's version*/
-/*This code utilizes the below variables, paragraph1, paragraph2, and uses paragraph3 to fill for the definitions without quotes*/
+/*This code utilizes the below variables, setOne, paragraph2, and uses paragraph3 to fill for the definitions without quotes*/
 /*This version also utilizes a requested loop*/
 /*Remove the ends of the comment, and change the reference for the above function to utilize*/
 
@@ -155,8 +155,7 @@ function upDate() {
     coldStorage = secondCounter; 
     //This section loops across all 3 of the boxes and applies data from the arrays
     for (var i = 0; i < 7; i++){
-        document.getElementById(idHolder[i]).innerHTML = paragraph1[secondCounter];
-        document.getElementById('p3').innerHTML = secondCounter + " " + coldStorage;
+        document.getElementById(idHolder[i]).innerHTML = setOne[secondCounter];
         ++i;
         if (secondCounter >= 5){
             document.getElementById(idHolder[i]).innerHTML = paragraph3;
